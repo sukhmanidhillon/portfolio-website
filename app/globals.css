@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem; /* sticky nav height */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+  font-feature-settings: "tnum"; /* tabular numbers — metrics align cleanly */
+}
+
+::selection { background: #1f3b57; color: #fff; }
+
+/* Visible keyboard focus everywhere (WCAG) */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #1f3b57;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
