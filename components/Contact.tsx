@@ -40,9 +40,11 @@ export default function Contact() {
           <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">
             {c.heading}
           </h2>
-          <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/85 sm:text-lg">
-            {c.line}
-          </p>
+          {c.line && (
+            <p className="mx-auto mt-3 max-w-xl text-base leading-relaxed text-ink/85 sm:text-lg">
+              {c.line}
+            </p>
+          )}
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a href={`mailto:${c.email}`} className={linkClass}>
               {icon.email} Email

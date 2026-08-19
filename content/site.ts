@@ -33,7 +33,7 @@ export const site = {
   nickname: "Mani",
   siteTitle: "Sukhmani Dhillon | Retail & Category Analytics · SQL · Tableau",
   metaDescription:
-    "Data analyst specializing in retail and CPG analytics: demand forecasting, promotion measurement, and pricing analysis in SQL and Tableau. Relocating to Los Angeles, CA.",
+    "Data analyst specializing in retail and CPG analytics: demand forecasting, promotion measurement, and pricing analysis in SQL and Tableau.",
   siteUrl: "https://sukhmanidhillon.com",
 
   // ═══ 1. HERO ════════════════════════════════════════════════════
@@ -215,13 +215,13 @@ export const site = {
     // you'll find me ..."). Your blueprint's advice: skip it if it
     // feels forced. Currently omitted.
     paragraph2:
-      "B.S. in Business Analytics from Indiana University's Kelley School of Business (3.97 GPA). Currently completing an M.S. in Computer Science with a Machine Learning & AI concentration at Western Governors University, expected December 2026. Relocating to Los Angeles, CA.",
+      "B.S. in Business Analytics from Indiana University's Kelley School of Business (3.97 GPA). Currently completing an M.S. in Computer Science with a Machine Learning & AI concentration at Western Governors University, expected December 2026.",
   },
 
   // ═══ 7. CONTACT ═════════════════════════════════════════════════
   contact: {
     heading: "Get in touch.",
-    line: "I'm actively interviewing for analytics roles in Los Angeles and Orange County. Want a resume tailored to your role? Email me and it'll be in your inbox the same day.",
+    line: "",
     email: "manidhillonoffice@gmail.com",
     linkedin: "https://www.linkedin.com/in/sukhmani-dhillon-ksb",
     github: "https://github.com/sukhmanidhillon",
