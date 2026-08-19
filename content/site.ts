@@ -41,8 +41,7 @@ export const site = {
     titleLine: "Data & Category Analytics · SQL · Tableau · Excel · Forecasting",
     valueLine:
       "I turn retail sales, inventory, and promotion data into decisions. Currently running category analytics for 110+ stores at WHSmith North America.",
-    locationChip:
-      "Las Vegas → Los Angeles · Open to Merchandising Analytics, Demand Planning & BI roles",
+    locationChip: "",
     primaryCta: { label: "View my work", targetId: "projects" },
     secondaryCta: { label: "Contact me", targetId: "contact" },
     // Put your photo at /public/headshot.jpg — if the file is missing,

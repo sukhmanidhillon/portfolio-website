@@ -12,9 +12,11 @@ export default function Hero() {
     <section className="bg-white">
       <div className="mx-auto grid max-w-site items-center gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1fr_auto] md:py-24">
         <FadeIn>
-          <p className="mb-4 inline-flex items-center rounded-full border border-line bg-band px-3.5 py-1.5 text-xs font-medium text-ink/80">
-            {site.hero.locationChip}
-          </p>
+          {site.hero.locationChip && (
+            <p className="mb-4 inline-flex items-center rounded-full border border-line bg-band px-3.5 py-1.5 text-xs font-medium text-ink/80">
+              {site.hero.locationChip}
+            </p>
+          )}
           <h1 className="text-4xl font-bold tracking-tight text-ink sm:text-5xl">
             {site.name}{" "}
             <span className="font-normal text-ink/50">({site.nickname})</span>
