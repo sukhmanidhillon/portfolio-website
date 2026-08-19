@@ -110,7 +110,7 @@ export const site = {
         "Star-schema model means every KPI has exactly one definition, the same discipline I use in production reporting",
       ],
       tags: ["Tableau", "LOD Expressions", "Table Calcs", "Star Schema"],
-      liveUrl: "", // FILL: your Tableau Public dashboard link → button appears
+      liveUrl: "https://public.tableau.com/app/profile/sukhmani.dhillon/viz/RetailPerformanceDashboard-Olist/1ExecutiveOverview",
       liveLabel: "Live Dashboard",
       // FILL: paste the SAME Tableau Public link here to show a live
       // interactive embed on desktop (mobile keeps the button — Tableau
@@ -225,7 +225,7 @@ export const site = {
     email: "manidhillonoffice@gmail.com",
     linkedin: "https://www.linkedin.com/in/sukhmani-dhillon-ksb",
     github: "https://github.com/sukhmanidhillon",
-    tableauPublic: "", // FILL: your Tableau Public PROFILE url → link appears
+    tableauPublic: "https://public.tableau.com/app/profile/sukhmani.dhillon",
   },
 
   footer: "© 2026 Sukhmani Dhillon · Built with Next.js",
