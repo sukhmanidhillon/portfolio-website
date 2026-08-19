@@ -34,7 +34,7 @@ export const site = {
   siteTitle: "Sukhmani Dhillon | Retail & Category Analytics · SQL · Tableau",
   metaDescription:
     "Data analyst specializing in retail and CPG analytics: demand forecasting, promotion measurement, and pricing analysis in SQL and Tableau. Relocating to Los Angeles, CA.",
-  siteUrl: "https://portfolio-website-rust-six-42.vercel.app",
+  siteUrl: "https://sukhmanidhillon.com",
 
   // ═══ 1. HERO ════════════════════════════════════════════════════
   hero: {
